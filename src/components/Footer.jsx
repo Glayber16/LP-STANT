@@ -6,9 +6,9 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[url(bg/bgFooter.jpg)] flex justify-around items-center py-20 bg-cover">
+    <footer className="bg-[url(bg/bgFooter.jpg)] flex gap-6 sm:gap-0 flex-col sm:flex-row justify-around items-center py-20 bg-cover">
       <img src="logo.svg" alt="" />
-      <button className="text-gray-100 border rounded-lg w-28 h-10">
+      <button className="text-gray-100 border rounded-lg w-28 h-10 font-michroma">
         contato
       </button>
       <div>
@@ -23,7 +23,9 @@ function Footer() {
             <AiFillInstagram className="text-gray-100" />
           </a>
         </div>
-        <p className="text-gray-100">Sign-up for our newsletter</p>
+        <p className="text-gray-100 font-michroma">
+          Sign-up for our newsletter
+        </p>
       </div>
     </footer>
   );
