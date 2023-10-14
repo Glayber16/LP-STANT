@@ -3,10 +3,10 @@ function Contacts() {
         <div className="bg-[url(bg/bgBall.jpg)] z-20">
         <div className="bg-[url(bg/bgContacts.jpg)] flex align-middle justify-around items-center bg-cover py-96 z-10 font-michroma" >
              
-            <div className="w-max"> 
-                <h1 className="text-gray-100 text-5xl">Venha construir <br /> o futuro conosco!</h1>
+            <div className=""> 
+                <h1 className="text-gray-100 text-5xl"> <strong> Venha construir <br /> o futuro conosco!</strong></h1>
             </div>
-            <div className="bg-gray-50 flex-col align-middle justify-center items-center rounded-md border px-9 py-8 text-violeta">
+            <div className="bg-gray-50 flex-col align-middle justify-center items-center rounded-md border px-9 py-11 text-violeta">
                     <label>
                         <span className=" text-xl gap-3">nome</span>
                     </label>
