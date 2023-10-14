@@ -2,19 +2,23 @@ import {AiFillLinkedin} from "react-icons/ai";
   
 function Team() {
   return (
-    <div className="bg-[url(bg/bgTeam.jpg)] bg-cover py-96 flex-col">  
-        <div> 
+    <div className="bg-[url(bg/bgTeam.jpg)] bg-cover flex-col">  
+        <div className="flex justify-start"> 
             <h1 className="text-gray-50 text-7xl px-5">Time</h1>
         </div>
         <div className="flex">
-            <img src="./teampic/teamRogerio.jpg" alt="Rógerio Lima" className="w-56 px-5"/>
+            <div className="w-60 px-5"> 
+            <img src="./teampic/teamRogerio.jpg" alt="Rógerio Lima" className=""/>
+            </div>
             <div className="flex"> 
-            <div> 
+            <div > 
                 <h1 className="text-gray-100 text-4xl"> <strong>Rogério Lima </strong></h1>
+                <div className="flex justify-around">
                 <h2 className="text-gray-100">founder</h2> 
-                <a href="" className="flex-row">
+                <a href="" >
                     <AiFillLinkedin className="text-gray-100" />
-                </a>
+                </a> 
+                </div>
                 <p className="text-gray-100">Engenheiro Mecânico, <br /> graduado pela Universidade <br /> Federal de Santa Catarina, e <br />Administrador de Empresas <br />
                     graduado pela Universidade<br /> do Estado de Santa Catarina– <br />UDESC/ESAG, com MBA em <br /> Gestão Empresarial na FGV.</p>
             </div>
