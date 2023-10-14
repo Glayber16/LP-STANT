@@ -1,7 +1,7 @@
 function Contacts() {
     return(
         <div className="bg-[url(bg/bgBall.jpg)] z-20">
-        <div className="bg-[url(bg/bgContacts.jpg)] flex align-middle justify-around items-center bg-cover py-96 z-10 font-michroma" >
+        <div className="bg-[url(bg/bgContacts.jpg)] flex align-middle justify-around items-center bg-cover py-72 px-56 font-michroma" >
              
             <div className=""> 
                 <h1 className="text-gray-100 text-5xl"> <strong> Venha construir <br /> o futuro conosco!</strong></h1>
