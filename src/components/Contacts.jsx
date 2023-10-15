@@ -1,12 +1,13 @@
 function Contacts() {
     return(
-        <div className="bg-[url(bg/bgBall.jpg)] z-20">
-        <div className="bg-[url(bg/bgContacts.jpg)] flex align-middle justify-around items-center bg-cover py-72 px-56 font-michroma" >
-             
-            <div className=""> 
-                <h1 className="text-gray-100 text-5xl"> <strong> Venha construir <br /> o futuro conosco!</strong></h1>
+
+        <div className=" relative"> 
+        <div className="bg-[url(bg/bgBalls.jpg)] bg-cover bg-center z-10"> </div>
+        <div className="bg-[url(bg/bgContacts.jpg)] sm:flex align-middle justify-around items-center bg-center bg-cover xl:py-72 xl:px-56 font-michroma py-20 px-5 " >
+            <div className="px-14 sm:px-0 py-5 sm:py-0"> 
+                <h1 className="text-gray-100 sm:text-5xl text-4xl"> <strong> Venha construir <br /> o futuro conosco!</strong></h1>
             </div>
-            <div className="bg-gray-50 flex-col align-middle justify-center items-center rounded-md border px-9 py-11 text-violeta">
+            <div className="bg-gray-50 flex-col align-middle justify-center items-center rounded-md border px-4 sm:px-9 sm:py-11  text-violeta">
                     <label>
                         <span className=" text-xl gap-3">nome</span>
                     </label>
@@ -28,6 +29,7 @@ function Contacts() {
                 <button className="bg-violeta border rounded-lg flex align-middle items-center w-48 h-16 text-center justify-center text-gray-50">ENVIAR</button>
                 </div>
            </div>
+        
         </div>
         </div>
     );
