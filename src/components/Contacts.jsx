@@ -21,7 +21,7 @@ function Contacts() {
                 <input type="email" name="email" className=" mt-0 block w-full bg-gray-50 border-b border-b-violeta "/>
                 </div>
                 <div className="flex gap-x-3 py-4"> 
-                <input type="checkbox" name="checkbox" className=""/>
+                <input type="checkbox" name="checkbox" className="checked:bg-violeta"/>
                 <label htmlFor="">
                     <span className="text-lg flex-row justify-center align-middle ">Estou ciente e de acordo em compartilhar</span>
                     <span className="text-lg flex align-middle gap-y-3">meus dados pessoais com esse site.</span>

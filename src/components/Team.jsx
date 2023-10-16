@@ -1,5 +1,6 @@
 import {AiFillLinkedin} from "react-icons/ai";
-  
+import TeamMembers from "./TeamMembers";
+
 function Team() {
   return (
     <div className="bg-[url(bg/bgTeam.jpg)] bg-cover flex-col">  
@@ -10,7 +11,7 @@ function Team() {
             <div className="w-60 px-5"> 
             <img src="./teampic/teamRogerio.jpg" alt="Rógerio Lima" className=""/>
             </div>
-            <div className="flex"> 
+            <div className="flex">
             <div > 
                 <h1 className="text-gray-100 text-4xl"> <strong>Rogério Lima </strong></h1>
                 <div className="flex justify-around">
