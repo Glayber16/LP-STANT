@@ -1,9 +1,11 @@
 function Contacts() {
     return(
 
-        <div className=" relative"> 
-        <div className="bg-[url(bg/bgBalls.jpg)] bg-cover bg-center z-10"> </div>
-        <div className="bg-[url(bg/bgContacts.jpg)] sm:flex align-middle justify-around items-center bg-center bg-cover xl:py-72 xl:px-56 font-michroma py-20 px-5 " >
+        <div className=" relative w-full h-full"> 
+        <div className="bg-[url(bg/bgContacts.jpg)] absolute inset-0 bg-cover bg-center -z-20" ></div>
+            <div className="bg-[url(bg/bgBall.png)] absolute inset-0 bg-cover opacity-50 bg-no-repeat bg-left -z-10 "> </div>
+            
+            <div className="sm:flex align-middle justify-around items-center xl:py-72 xl:px-56 font-michroma py-20 px-5 "> 
             <div className="px-14 sm:px-0 py-5 sm:py-0"> 
                 <h1 className="text-gray-100 sm:text-5xl text-4xl"> <strong> Venha construir <br /> o futuro conosco!</strong></h1>
             </div>
@@ -19,7 +21,7 @@ function Contacts() {
                 <input type="email" name="email" className=" mt-0 block w-full bg-gray-50 border-b border-b-violeta "/>
                 </div>
                 <div className="flex gap-x-3 py-4"> 
-                <input type="checkbox" name="checkbox" className=""/>
+                <input type="checkbox" name="checkbox" className="checked:bg-violeta"/>
                 <label htmlFor="">
                     <span className="text-lg flex-row justify-center align-middle ">Estou ciente e de acordo em compartilhar</span>
                     <span className="text-lg flex align-middle gap-y-3">meus dados pessoais com esse site.</span>
@@ -28,9 +30,9 @@ function Contacts() {
                 <div className="flex align-middle items-center justify-center py-3 "> 
                 <button className="bg-violeta border rounded-lg flex align-middle items-center w-48 h-16 text-center justify-center text-gray-50">ENVIAR</button>
                 </div>
-           </div>
+            </div>
+            </div>
         
-        </div>
         </div>
     );
 }

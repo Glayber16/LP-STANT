@@ -1,6 +1,7 @@
 export const TEAM_MEMBERS = [
     {
         image : "./teampic/teamRogerio.jpg",
+        dsc : "foto preto e branco de Rógerio Lima, fundador",
         name : "Rogério Lima",
         role : "founder",
         linkedin: "#",
@@ -11,6 +12,7 @@ export const TEAM_MEMBERS = [
 
     {
         image : "./teampic/teamMauricio.jpg",
+        dsc : "foto preto e branco de Mauricio Ibarra Dobes, projetos",
         name : "Mauricio Ibarra Dobes",
         role : "projetos",
         linkedin : "#",
@@ -21,6 +23,7 @@ export const TEAM_MEMBERS = [
     {
         image : "./teampic/teamBruno.jpg",
         name : "Bruno Souto Alonso",
+        dsc : "foto preto e branco de Bruno Souto Alonso, advogado",
         role : "advogado",
         linkedin : "#",
         description1 : "Bacharel em Direito pela Universidade do Vale do Itajaí - UNIVALI. Possui especialização em Direito Público pela Escola Superior da Magistratura Federal de Santa Catarina e em Direito Tributário.",
@@ -30,6 +33,7 @@ export const TEAM_MEMBERS = [
     {
         image : "./teampic/teamSandro.jpg",
         name : "Sandro Lopes Guimarães",
+        dsc : "foto preto e branco de Sandro Lopes Guimarães, advogado",
         role : "advogado",
         linkedin : "#",
         description1 : "Advogado desde 1994 atuando na área empresarial. Formado em Direito pela Universidade Federal de Santa Catarina - UFSC.",
@@ -39,6 +43,7 @@ export const TEAM_MEMBERS = [
     {
         image : "./teampic/teamVitor.jpg",
         name : "Vitor Hugo Cenci",
+        dsc : "foto preto e branco de Vitor Hugo Cenci, advogado",
         role : "advogado",
         linkedin : "#",
         description1 : "Graduado em Direito pela Universidade Federal de Santa Catarina – UFSC. Se especializou em Gestão da Tecnologia e Propriedade Intelectual pelo Instituto Nacional da Propriedade Industrial (INPI).",
