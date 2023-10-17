@@ -5,7 +5,7 @@ import {TEAM_MEMBERS} from "../constants/index";
 function Team() {
   return (
       
-    <div className="bg-[url(bg/bgTeam.jpg)] bg-cover flex-col">  
+    <div className="bg-[url(bg/bgTeam.jpg)] bg-cover flex-col font-michroma">  
         <div className="flex justify-start"> 
             <h1 className="text-gray-50 text-7xl px-5">Time</h1>
         </div>

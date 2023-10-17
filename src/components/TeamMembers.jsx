@@ -2,7 +2,7 @@ import {AiFillLinkedin} from "react-icons/ai";
 
 function TeamMembers({name, image, role, description1, description2, linkedin}) {
   return (
-    <div className="flex font-michroma">
+    <div className="flex ">
             <div className="w-60 px-5"> 
                 <img src={image} alt="Rógerio Lima" className=""/>
             </div>
