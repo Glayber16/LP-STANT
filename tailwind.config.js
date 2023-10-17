@@ -7,6 +7,7 @@ export default withMT({
     extend: {
       colors: {
         'violeta': '#4F29E4',
+        'lblue': '#411CBB',
       },
       fontFamily: {
         michroma: ['Michroma', 'sans-serif'],
