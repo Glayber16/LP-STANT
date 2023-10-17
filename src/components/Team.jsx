@@ -7,7 +7,7 @@ function Team() {
     <div className="bg-[url(bg/bgTeam.jpg)] absolute inset-0 bg-cover bg-center -z-20">  </div>
     <div className="bg-[url(bg/bgBallsteam.png)] absolute inset-0 bg-contain bg-no-repeat bg-right -z-10 opacity-30"></div>
     <div className="flex-col font-michroma"> 
-        <div className="flex justify-start mb-8"> 
+        <div className=" mb-8"> 
             <h1 className="text-gray-50 text-7xl px-5">Time</h1>
         </div>
         {TEAM_MEMBERS.map(e => (
