@@ -12,6 +12,9 @@ export default withMT({
       fontFamily: {
         michroma: ['Michroma', 'sans-serif'],
       },
+      fontSize: {
+        sto: ['350px', '225px'],
+      }
     },
   },
   plugins: [],

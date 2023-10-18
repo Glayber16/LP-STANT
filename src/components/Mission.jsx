@@ -1,21 +1,21 @@
+import React, { useState } from 'react'
 
 function Mission() {
+    const[Mission, setMission] = useState(false)
   return (
-    <div className="bg-[url(bg/bgMission.jpg)] bg-cover bg-center py-72 text-gray-50 font-michroma">
-   
-            <div className=" flex justify-center "> 
-              <h1 className="w-max  text-9xl">Sto Ant</h1>
+    
+    <div className="mt-2"> 
+        <button onClick={() => setMission (true)} className="cursor-pointer">Missão</button>
+        {Mission && ( <div className='lg:w-screen h-screen fixed top-0 left-10 bottom-0 right-10 flex justify-center lg:left-0 items-center '>
+            <div onClick={() => setMission (!Mission)} className='w-screen h-screen fixed top-0 left-0 bottom-0 right-0 bg-black bg-opacity-75 '> </div>
+            <div className='bg-white text-xs px-5 py-5 lg:text-sm lg:w-96 lg:px-7 lg:py-7 absolute leading-relaxed rounded-lg '>
+                <p className='text-lblue'>"A nossa missão é identificar, incubar e acelerar startups promissoras, fornecendo recursos, conhecimento e 
+                expertise necessários para transformar ideias em negócios de sucesso. Nós capacitamos empreendedores a realizar seu potencial e contribuir para um mundo melhor."</p>
+                <button onClick={() => setMission (false)} className='text-black py-3'>Fechar</button>
             </div>
-        <div className="px-14 text-6xl">
-          <div className="flex cursor-pointer"> 
-              <h1>Missão</h1>
-              <p className="text-lblue scale-0 hidden duration-500 ease-in-out">"A nossa visão é criar um ecossistema empreendedor dinâmico e sustentável, impulsionado pela inovação e pela criação de empresas 
-              disruptivas que resolvam os desafios mais prementes da sociedade."</p>
-          </div>
-            <h1>Visão</h1>
-            <h1>Valores</h1>
-        </div>
-        
+        </div> 
+        )}
+
     </div>
   )
 }
