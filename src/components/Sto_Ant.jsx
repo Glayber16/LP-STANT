@@ -8,7 +8,7 @@ function Sto_Ant() {
   <div className="bg-[url(bg/bgMission.jpg)] flex-col bg-cover bg-center h-max text-gray-50 font-michroma ">
    
     <div className="  flex justify-center "> 
-        <h1 className=" text-9xl lg:text-sto">Sto Ant</h1>
+        <h1 className=" text-9xl lg:text-sto ">Sto Ant</h1>
     </div>
     <div className="lg:px-28 lg:text-8xl text-6xl flex-col py-60">
         <div className="lg:pb-72"> 
