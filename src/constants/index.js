@@ -51,3 +51,24 @@ export const TEAM_MEMBERS = [
     },
 
 ]
+
+export const POP_UPS = [
+    {
+        name: "Missão",
+        text : "A nossa missão é identificar, incubar e acelerar startups promissoras, fornecendo recursos, conhecimento e expertise necessários para transformar ideias em negócios de sucesso. Nós capacitamos empreendedores a realizar seu potencial e contribuir para um mundo melhor.",
+    },
+
+    {
+        name: "Visão",
+        text : "A nossa visão é criar um ecossistema empreendedor dinâmico e sustentável, impulsionado pela inovação e pela criação de empresas disruptivas que resolvam os desafios mais prementes da sociedade.",
+    },
+
+    {
+        name: "Valores",
+        text : "1. Colaboração Empreendedora: Trabalhamos em estreita parceria com fundadores e equipes, compartilhando conhecimento e recursos para alcançar o sucesso coletivo.",
+        text2 : "2. Mentoria e Desenvolvimento: Investimos no desenvolvimento de empreendedores e equipes, capacitando-os com as habilidades necessárias para ter sucesso a longo prazo. ",
+        text3 :  "3. Foco no Cliente: Colocamos as necessidades e desejos de nossos clientes e parceiros no centro de nossas atividades.",
+        text4 : "4. Persistência e Resiliência: Entendemos que empreender é um caminho repleto de desafios, e estamos comprometidos em superar obstáculos com determinação.",
+
+    }
+]
