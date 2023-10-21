@@ -1,6 +1,4 @@
-import Mission from "./Mission"
-import Values from "./Values"
-import Vision from "./Vision"
+
 import { POP_UPS } from "../constants/index";
 import Pop_ups from "./Pop_ups";
 

@@ -72,3 +72,9 @@ export const POP_UPS = [
 
     }
 ]
+
+export const SLIDER = [
+    {
+        
+    }
+]
