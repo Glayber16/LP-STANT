@@ -75,6 +75,23 @@ export const POP_UPS = [
 
 export const SLIDER = [
     {
-        
+        image:"./sliderpics/Slider1.png",
+        alt: "#",
+        title:"TechNova",
+        description:"Estamos na vanguarda da inovação, explorando tecnologias emergentes, como inteligência artificial, aprendizado de máquina, blockchain, realidade virtual, entre outras, para criar soluções que revolucionam a maneira como as coisas são feitas.",
+    },
+
+    {
+        image:"./sliderpics/Slider2.png",
+        alt: "#",
+        title:"InnovateHub",
+        description:"Nosso ambiente de trabalho é caracterizado pela agilidade. Somos capazes de adaptar rapidamente nossos produtos e estratégias à medida que o mercado evolui.",
+    },
+
+    {
+        image:"#",
+        alt: "#",
+        title:"CloudCraft",
+        description:"Valorizamos o espírito empreendedor e incentivamos a criatividade e o pensamento fora da caixa entre nossa equipe. Acreditamos que grandes ideias podem vir de qualquer lugar.",
     }
 ]
