@@ -95,3 +95,21 @@ export const SLIDER = [
         description:"Valorizamos o espírito empreendedor e incentivamos a criatividade e o pensamento fora da caixa entre nossa equipe. Acreditamos que grandes ideias podem vir de qualquer lugar.",
     }
 ]
+
+export const CARD = [
+    {
+        role: "Energia",
+        image: "./thunder.svg",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+        role: "Inovação",
+        image: "./rocket.svg",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    },
+    {
+        role: "Tecnologia",
+        image: "./gear.svg",
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+    }
+]
