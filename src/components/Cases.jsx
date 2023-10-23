@@ -14,7 +14,7 @@ useEffect(() => {
 
 
   return (
-    <div className="bg-gradient-to-r from-casos to-cases flex flex-col lg:flex-row font-michroma text-gray-100">
+    <div className="bg-[#02045f] flex flex-col lg:flex-row font-michroma text-gray-100">
         <img src="case.svg" alt="" className="px-14 py-10 h-[59rem]" />
     
         <motion.div ref={carousel} className="overflow-hidden cursor-grab" whileTap={{cursor: "grabbing"}}>

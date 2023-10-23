@@ -10,6 +10,7 @@ export default withMT({
         'lblue': '#411CBB',
         'cases': 'rgba(34, 53, 190, 0.5)',
         'casos': 'rgba(65, 28, 187, 0.5)',
+        'area': '#02045f',
         'card': 'rgba(110, 69, 244, 0.6)'
       },
       fontFamily: {
