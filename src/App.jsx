@@ -6,10 +6,12 @@ import Working from "./components/Working";
 import Cases from "./components/Cases";
 import Work from "./components/Work";
 import Area from "./components/Area";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
+      <Header/>
       <Area />
       <Work />
 
