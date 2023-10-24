@@ -8,8 +8,8 @@ export default withMT({
       colors: {
         'violeta': '#4F29E4',
         'lblue': '#411CBB',
-        'cases': 'rgba(34, 53, 190, 0.5)',
-        'casos': 'rgba(65, 28, 187, 0.5)',
+        'cases': '#2235BE80',
+        'casos': '#411CBB80',
         'area': '#02045f',
         'card': 'rgba(110, 69, 244, 0.6)'
       },

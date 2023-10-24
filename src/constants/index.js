@@ -117,7 +117,7 @@ export const CARD = [
 export const NAV = [
     {
         name:'Atuação',
-        go:'#'
+        go:'#area'
     },
 
     {
@@ -126,10 +126,10 @@ export const NAV = [
     },
     {
         name:'Potifólio',
-        go:'#'
+        go:'#work'
     },
     {
         name:'Time',
-        go:'#'
+        go:'#time'
     }
 ]

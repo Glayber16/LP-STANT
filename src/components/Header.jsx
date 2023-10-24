@@ -5,21 +5,21 @@ import Navbar from './Navbar';
 function Header() {
   return (
     <div className='bg-[#030A6233] font-michroma'>
-        <div className='flex flex-row'>
+        <div className='flex flex-row justify-around py-4 align-middle px-24 '>
         <img src="simbol.svg" alt="" />
         {NAV.map(e => (
             <Navbar name = {e.name} go = {e.go} />
         ))} 
-        <div className='text-gray-50'>
-            <a href='#'>Contato</a> 
+        <div className='text-gray-50 rounded-lg border-gray-50 border w-36 h-12  flex justify-center text-center items-center'>
+            <a href='#contact'>Contato</a> 
         </div>
         </div>
-        <div className='flex flex-col text-gray-50 justify-center text-start'>
+        <div className='flex flex-col text-gray-50 justify-center text-start px-8 pb-20'>
             <div className='ml-9'> 
-                <h1 className='text-7xl '>“Building Innovation,</h1>
-                <h1 className='text-7xl '>Shaping the Future”</h1>
+                <h1 className='text-8xl '>“Building Innovation,</h1>
+                <h1 className='text-8xl '>Shaping the Future”</h1>
             </div>
-            <div className='rounded-lg border-gray-50 border h-8 px-2 flex justify-center items-center m-9 text-center w-2/12'> 
+            <div className='rounded-lg border-gray-50 border h-12 px-2 flex justify-center items-center m-9 text-center w-52 '> 
                 <p>Conheça o futuro</p>
             </div>
         </div>

@@ -5,7 +5,7 @@ function Contacts() {
         <div className="bg-[url(bg/bgContacts.jpg)] absolute inset-0 bg-cover bg-center -z-20" ></div>
             <div className="bg-[url(bg/bgBall.png)] absolute inset-0 bg-cover opacity-50 bg-no-repeat bg-left -z-10 "> </div>
             
-            <div className="sm:flex align-middle justify-around items-center xl:py-72 xl:px-56 font-michroma py-20 px-5 "> 
+            <div className="sm:flex align-middle justify-around items-center xl:py-72 xl:px-56 font-michroma py-20 px-5 " id="contact"> 
             <div className="px-14 sm:px-0 py-5 sm:py-0"> 
                 <h1 className="text-gray-100 sm:text-5xl text-4xl"> <strong> Venha construir <br /> o futuro conosco!</strong></h1>
             </div>

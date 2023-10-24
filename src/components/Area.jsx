@@ -4,7 +4,7 @@ import Cards from './Cards';
 
 function Area() {
   return (
-    <div className='bg-gradient-to-b from-area to-[#3728b4] font-michroma text-gray-50 flex flex-col py-6 '>
+    <div id='area' className='bg-gradient-to-b from-area to-[#3728b4] font-michroma text-gray-50 flex flex-col py-6 '>
         <div className='xl:text-8xl md:text-4xl text-xl flex justify-center text-center md:justify-end py-6 md:pr-11 2xl:pr-32'> 
             <h1>Áreas de atuação</h1>
         </div>
