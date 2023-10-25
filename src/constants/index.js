@@ -133,3 +133,18 @@ export const NAV = [
         go:'#time'
     }
 ]
+
+export const RECORDS = [
+    {
+        number:'100',
+        description:'Lorem Ipsum'
+    },
+    {
+        number:'57',
+        description:'Lorem Ipsum'
+    },
+    {
+        number:'12',
+        description:'Lorem Ipsum'
+    }
+]

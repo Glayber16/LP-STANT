@@ -7,6 +7,7 @@ import Cases from "./components/Cases";
 import Work from "./components/Work";
 import Area from "./components/Area";
 import Header from "./components/Header";
+import About_us from "./components/About_us";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Header/>
       <Area />
       <Work />
-
+      <About_us />
       <Cases />
       <Working />
       <Sto_Ant />

@@ -14,7 +14,7 @@ function Header() {
             <a href='#contact'>Contato</a> 
         </div>
         </div>
-        <div className='flex flex-col text-gray-50 justify-center text-start px-8 pb-20'>
+        <div className='flex flex-col text-gray-50 justify-center text-start px-8 py-40'>
             <div className='ml-9'> 
                 <h1 className='text-8xl '>“Building Innovation,</h1>
                 <h1 className='text-8xl '>Shaping the Future”</h1>
