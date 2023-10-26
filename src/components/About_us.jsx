@@ -6,7 +6,7 @@ import Records from './Records';
 function About_us() {
   return (
     <div className='relative w-full h-full'> 
-    <div className='bg-[#030A6233] absolute inset-0 bg-cover bg-center -z-20 '> </div>
+    <div className='bg-[url(bg/bgAbout2.jpg)] absolute inset-0 bg-cover bg-bottom -z-20 '> </div>
     <div className='bg-[url(bg/bgAbout.png)] absolute inset-0 bg-contain bg-no-repeat bg-right -z-10'> </div>
     <div className='font-michroma text-gray-50'> 
         <div className='flex flex-col px-10'> 
