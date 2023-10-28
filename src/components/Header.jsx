@@ -16,8 +16,8 @@ function Header() {
         </div>
         <div className='flex flex-col text-gray-50 justify-center text-start px-8 py-40'>
             <div className='ml-9'> 
-                <h1 className='text-8xl '>“Building Innovation,</h1>
-                <h1 className='text-8xl '>Shaping the Future”</h1>
+                <h1 className='lg:text-8xl '>“Building Innovation,</h1>
+                <h1 className='lg:text-8xl '>Shaping the Future”</h1>
             </div>
             <div className='rounded-lg border-gray-50 border h-12 px-2 flex justify-center items-center m-9 text-center w-52 '> 
                 <p>Conheça o futuro</p>
