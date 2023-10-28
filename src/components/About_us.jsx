@@ -11,7 +11,7 @@ function About_us() {
     <div className='font-michroma text-gray-50'> 
         <div className='flex flex-col px-10'> 
             <div id='about' className=''>
-                <h1 className='text-9xl'>Modelo</h1>
+                <h1 className='sm:text-9xl text-5xl'>Modelo</h1>
             </div>
             <div  className='flex w-64 py-40'>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
