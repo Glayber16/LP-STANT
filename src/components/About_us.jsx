@@ -10,7 +10,7 @@ function About_us() {
     <div className='bg-[url(bg/bgAbout.png)] absolute inset-0 bg-contain bg-no-repeat bg-right -z-10'> </div>
     <div className='font-michroma text-gray-50'> 
         <div className='flex flex-col px-10'> 
-            <div className=''>
+            <div id='about' className=''>
                 <h1 className='text-9xl'>Modelo</h1>
             </div>
             <div className='flex w-64 py-40'>

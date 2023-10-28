@@ -122,7 +122,7 @@ export const NAV = [
 
     {
         name:'Sobre nós',
-        go:'#',
+        go:'#about',
     },
     {
         name:'Potifólio',

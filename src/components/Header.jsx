@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 
 function Header() {
   return (
-    <div className='bg-[url(bg/bgHeader.jpg)] bg-cover bg-top font-michroma'>
-        <div className='flex flex-row justify-around py-4 align-middle px-24 '>
+    <div className='bg-[url(bg/bgHeader.jpg)] bg-cover bg-top font-michroma py-6'>
+        <div className='flex flex-row justify-around py-4 align-middle items-center px-20 '>
         <img src="simbol.svg" alt="" />
         {NAV.map(e => (
             <Navbar name = {e.name} go = {e.go} />
