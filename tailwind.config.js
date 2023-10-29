@@ -5,6 +5,9 @@ export default withMT({
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1600px', 
+      },
       colors: {
         'violeta': '#4F29E4',
         'lblue': '#411CBB',

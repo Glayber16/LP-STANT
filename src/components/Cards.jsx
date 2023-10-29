@@ -2,7 +2,7 @@ import React from 'react'
 
 function Cards({role, image, description}) {
   return (
-    <div className='bg-card flex flex-row rounded-lg 2xl:w-[30rem] 2xl:h-[37rem] md:w-60 md:h-96 w-60 h-96 mb-8 xl:w-80  lg:w-72 lg:h-96 justify-center text-center px-5'>
+    <div className='bg-card flex flex-row rounded-lg 2xl:w-[25rem] 3xl:w-[30rem] 2xl:h-[37rem] md:w-60 md:h-96 w-60 h-96 mb-8 xl:w-80  lg:w-72 lg:h-96 justify-center text-center px-5'>
         <div className='flex flex-col'> 
         <div className='flex justify-between xl:py-8 py-3 px-4 '>
             <div className='rounded-sm border-gray-50 border h-6 xl:h-11 sm:h-6 px-2'> 
