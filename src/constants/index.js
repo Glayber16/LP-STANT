@@ -148,3 +148,20 @@ export const RECORDS = [
         description:'Lorem Ipsum'
     }
 ]
+export const POP_UPS2 = [
+    {
+        name: "1",
+        text : ''
+    },
+
+    {
+        name: '2',
+        text : ''
+    },
+
+    {
+        name: '3',
+        text : ''
+
+    }
+]
