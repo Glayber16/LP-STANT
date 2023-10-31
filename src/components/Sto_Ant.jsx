@@ -7,7 +7,7 @@ function Sto_Ant() {
   <div className="bg-[url(bg/bgMission.jpg)] flex-col bg-cover bg-center h-max text-gray-50 font-michroma ">
    
     <div className="  flex justify-center "> 
-    <img src="sto.svg" alt="" className="w-screen"/>
+    <img src="Sto.svg" alt="" className="w-screen"/>
         
     </div>
     <div className="lg:px-28 lg:text-8xl text-6xl flex-col py-60">

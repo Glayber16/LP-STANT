@@ -24,5 +24,7 @@ export default withMT({
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 });

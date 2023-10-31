@@ -7,7 +7,7 @@ import Pop_up2 from './Pop_up2';
 function About_us() {
   return (
     <div className='relative w-full h-full font-michroma text-gray-50'> 
-    <div className='  bg-[url(bg/bgAbout2.jpg)] bg-cover inset-0 bg-bottom absolute  -z-20'> </div>
+    <div className='  bg-[url(bg/bgAbout2.jpg)] bg-cover inset-0 bg-bottom absolute -z-20'> </div>
     <div className='bg-[url(bg/bgAbout.png)] bg-contain bg-no-repeat inset-0 bg-right absolute  -z-20'> </div>
 
     

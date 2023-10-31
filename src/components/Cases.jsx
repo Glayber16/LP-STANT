@@ -14,7 +14,7 @@ useEffect(() => {
 
 
   return (
-    <div className="bg-[url(bg/bgCases.jpg)] bg-bottom flex flex-col font-michroma text-gray-100">
+    <div className="bg-gradient-to-b from-[#2235BE] to-[#411CBB] bg-bottom flex flex-col font-michroma text-gray-100">
       <div className="lg:flex lg:flex-row ">
         <div className="flex justify-center"> 
           <img src="case.svg" alt="" className=" px-14 lg:h-[65rem] h-80 rotate-90 lg:rotate-0" />
