@@ -150,17 +150,17 @@ export const RECORDS = [
 ]
 export const POP_UPS2 = [
     {
-        name: "1",
+        name1: "1",
         text : ''
     },
 
     {
-        name: '2',
+        name2: '2',
         text : ''
     },
 
     {
-        name: '3',
+        name3: '3',
         text : ''
 
     }
