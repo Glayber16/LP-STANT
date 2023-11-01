@@ -7,14 +7,14 @@ function Pop_up2({name1, name2, name3, text}) {
     
 
 
-      <div className="mt-2 flex flex-col lg:pl-20  lg:pr-20 ">
+      <div className="mt-2 flex flex-col ml-8 lg:ml-0 xl:ml-20  lg:mr-20 ">
         
-          <button onClick={() => setPop_up (true)} className="cursor-pointer sm:pb-10 lg:pb-0 lg:pt-16 ">{name1}</button>
+          <button onClick={() => setPop_up (true)} className="cursor-pointer  mr-12 sm:mr-80  lg:mr-0 lg:mt-16 ">{name1}</button>
           
-          <button onClick={() => setPop_up (true)} className="cursor-pointer sm:pl-12 lg:pl-80 lg:pt-12">{name2}</button>
+          <button onClick={() => setPop_up (true)} className="cursor-pointer ml-24 sm:mr-24 lg:mr-0 sm:ml-12 lg:ml-80 lg:mt-12">{name2}</button>
            
             
-          <button onClick={() => setPop_up (true)} className="cursor-pointer lg:pr-48">{name3}</button>
+          <button onClick={() => setPop_up (true)} className="cursor-pointer  mr-32 mt-8 lg:mt-0 sm:mr-96 lg:mr-48">{name3}</button>
           
           {Pop_up && ( <div className='lg:w-screen h-screen fixed top-0 left-0 bottom-0 right-0 flex justify-center items-center '>
               <div onClick={() => setPop_up (!Pop_up)} className='w-screen h-screen fixed top-0 left-0 bottom-0 right-0 bg-black bg-opacity-75 '> </div>

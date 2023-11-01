@@ -17,13 +17,13 @@ function About_us() {
             </div>
             <div className='flex lg:flex-row flex-col justify-between'>
                     
-             <div  className='flex sm:w-[23.9rem] pb-40 sm:text-xl text-sm  [word-spacing:0.9rem] pt-48	 font-normal align-middle '>
+             <div  className='flex sm:w-[23.9rem] pb-20 lg:pb-40 sm:text-xl text-sm  [word-spacing:0.9rem] pt-48	 font-normal align-middle '>
                 <p className='leading-[2.7rem]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           
-            <div className='flex flex-row text-3xl md:text-7xl py-72 lg:py-0 bg-[url(bg/bgAbout.png)] lg:bg-none bg-contain bg-no-repeat'>
+            <div className='flex flex-row text-4xl md:text-7xl sm:py-72 py-32 lg:py-0 bg-[url(bg/bgAbout.png)] lg:bg-none bg-contain bg-no-repeat'>
             
-                <div className='flex flex-col justify-around lg:py-28 sm:pl-28 lg:pl-0'> 
+                <div className='flex flex-col justify-around lg:my-28 sm:ml-20 lg:ml-0 '> 
               
             {POP_UPS2.map(e => (
                 <Pop_up2 name1 = {e.name1} name2={e.name2} name3={e.name3} text = {e.text}   />

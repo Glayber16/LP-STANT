@@ -10,7 +10,7 @@ function Team() {
         <div className=" mb-8"> 
             <h1 className="text-gray-50 text-7xl px-5">Time</h1>
         </div>
-        <div className="px-[4.5rem]"> 
+        <div className="xl:px-[4.5rem]"> 
         {TEAM_MEMBERS.map(e => (
             <TeamMembers name = {e.name} image = {e.image} role = {e.role} description1 = {e.description1} description2 = {e.description2} linkedin = {e.linkedin} />
         ))}
