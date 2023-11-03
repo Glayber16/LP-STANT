@@ -21,9 +21,9 @@ function About_us() {
                 <p className='leading-[2.7rem]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
           
-            <div className='flex flex-row text-4xl md:text-7xl sm:py-72 py-32 lg:py-0 bg-[url(bg/bgAbout.png)] lg:bg-none bg-contain bg-no-repeat'>
+            <div className='flex flex-row text-4xl md:text-5xl lg:text-7xl sm:py-40 py-36 lg:py-0 bg-[url(bg/bgAbout.png)] lg:bg-none bg-contain bg-no-repeat'>
             
-                <div className='flex flex-col justify-around lg:my-28 sm:ml-20 lg:ml-0 '> 
+                <div className='flex flex-col justify-around lg:my-28 lg:ml-0 '> 
               
             {POP_UPS2.map(e => (
                 <Pop_up2 name1 = {e.name1} name2={e.name2} name3={e.name3} text = {e.text}   />
