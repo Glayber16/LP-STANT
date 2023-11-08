@@ -125,7 +125,7 @@ export const NAV = [
         go:'#about',
     },
     {
-        name:'Potifólio',
+        name:'Portifólio',
         go:'#work'
     },
     {

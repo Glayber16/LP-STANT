@@ -24,9 +24,9 @@ useEffect(() => {
         {SLIDER.map(e => (
         <motion.div className="md:px-20 pl-5 py-24"> 
          <img src={e.image} alt={e.alt} className="lg:w-[26rem] lg:h-[26rem] rounded-lg pointer-events-none" /> 
-         <div className="flex flex-col justify-center text-sm text-start w-[18rem] lg:w-[25rem] py-5"> 
-                <h1 className="font-black py-3 text-xl"> <strong>{e.title} </strong></h1>
-                <p className="leading-6 tracking-widest font-normal">{e.description}</p>
+         <div className="flex flex-col justify-center  text-start w-[18rem] lg:w-[22.1rem] py-5"> 
+                <h1 className="text-[20px] leading-10 tracking-wider py-3"> <strong>{e.title} </strong></h1>
+                <p className="leading-6 tracking-widest font-normal text-[14px] ">{e.description}</p>
             </div>
         </motion.div>
       ))}

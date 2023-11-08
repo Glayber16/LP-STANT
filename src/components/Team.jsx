@@ -5,10 +5,10 @@ function Team() {
   return (
     <div className="relative w-full h-full " >
     <div className="bg-gradient-to-b from-area to-[#1127b3] absolute inset-0 bg-cover bg-center -z-20">  </div>
-    <div className="xl:bg-[url(bg/bgBallsteam.png)] absolute inset-0 bg-contain bg-no-repeat bg-right -z-20"></div>
-    <div className="flex-col font-michroma pb-5 " id="time"> 
+    <div className="xl:bg-[url(bg/bgBallsteam.png)] absolute inset-0 bg-[length:300px_2000px] left-[71.25rem] 3xl:bg-right bg-no-repeat -z-20"></div>
+    <div className="flex-col font-michroma pb-36 " id="time"> 
         <div className=" mb-8"> 
-            <h1 className="text-gray-50 text-7xl px-5">Time</h1>
+            <h1 className="text-gray-50 text-[80px] leading-[7.1rem] xl:px-[5rem]">Time</h1>
         </div>
         <div className="xl:px-[4.5rem]"> 
         {TEAM_MEMBERS.map(e => (

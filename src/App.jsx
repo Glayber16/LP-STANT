@@ -12,15 +12,18 @@ import About_us from "./components/About_us";
 function App() {
   return (
     <>
-      <Header/>
-      <Area />
-      <Work />
-      <About_us />
-      <Cases />
-      <Working />
-      <Sto_Ant />
-      <Team />
-      <Contacts />
+    <Header/>
+
+      <main className="">
+        <Area />
+        <Work />
+        <About_us />
+        <Cases />
+        <Working />
+        <Sto_Ant />
+        <Team />
+        <Contacts /> 
+      </main>
       <Footer />
     </>
   );
