@@ -4,8 +4,10 @@ import Pop_ups from "./Pop_ups";
 
 function Sto_Ant() {
   return (
-  <div className="bg-[url(bg/bgMission.jpg)] flex-col bg-cover bg-center h-max text-gray-50 font-michroma ">
-   
+    <div className="relative h-full w-full">
+        <div className="bg-[url(bg/bgMission.jpg)] bg-cover bg-center absolute inset-0 -z-20"> </div>
+  <div className=" flex-col h-max text-gray-50 font-michroma ">
+    
     <div className="  flex justify-center "> 
     <img src="Sto.svg" alt="" className="w-screen"/>
         
@@ -19,6 +21,7 @@ function Sto_Ant() {
     </div>
 
 
+</div>
 </div>
 )
 

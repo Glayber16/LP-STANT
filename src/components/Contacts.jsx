@@ -1,7 +1,7 @@
 function Contacts() {
     return(
 
-        <div className=" relative w-full h-full"> 
+        <div className=" relative w-full h-full "> 
         <div className="bg-[url(bg/bgContacts.jpg)] absolute inset-0 bg-cover bg-center -z-20" ></div>
         <div className="bg-[url(bg/bgBall.png)] absolute inset-0 bg-[length:950px_1000px] -top-[4rem] left-[4rem] opacity-50 bg-no-repeat  3xl:bg-center 3xl: -z-20 "> </div>
             

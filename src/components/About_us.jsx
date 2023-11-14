@@ -8,7 +8,7 @@ function About_us() {
   return (
     <div className='relative w-full h-full font-michroma text-gray-50'> 
     <div className='  bg-[url(bg/bgAbout2.jpg)] bg-cover inset-0 bg-bottom absolute -z-20'> </div>
-    <div className=' lg:bg-[url(bg/bgAbout.png)] bg-[length:460px_1000px]  bg-no-repeat -top-24 lg:left-[30rem] xl:left-[55.7rem] 3xl:bg-[length:500px_1100px] 3xl:bg-right 3xl:-top-80 3xl:right-36 inset-0 -z-10 absolute '> </div>
+    <div className=' lg:bg-[url(bg/bgAbout.png)] bg-[length:500px_1000px]  bg-no-repeat -top-24 lg:left-[30rem] xl:left-[55.7rem] 3xl:bg-[length:500px_1100px] 3xl:bg-right 3xl:-top-80 3xl:right-36 inset-0 -z-10 absolute '> </div>
 
     
         <div className='flex flex-col sm:px-28 px-5 pt-10'> 
