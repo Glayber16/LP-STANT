@@ -12,7 +12,7 @@ function Header() {
             <Navbar name = {e.name} go = {e.go} />
         ))} 
         </div>
-        <div className='text-gray-50 rounded-lg border-gray-50 border lg:w-40 sm:h-12 md:w-20  w-12 h-6 text-[0.4rem] sm:text-xs lg:text-base flex justify-center text-center items-center'>
+        <div className='text-gray-50 rounded-lg cursor-pointer	 border-gray-50 border lg:w-40 sm:h-12 md:w-20  w-12 h-6 text-[0.4rem] sm:text-xs lg:text-base flex justify-center text-center items-center'>
             <a href='#contact'>Contato</a> 
         </div>
         </div>
