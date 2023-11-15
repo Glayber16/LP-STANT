@@ -11,7 +11,7 @@ function Pop_up2({name1, name2, name3, text}) {
         
         <button onClick={() => setPop_up (true)} className="cursor-pointer  med:max-sm:mt-5 sm:mb-0  mr-8 mt-5    lg:mr-24 xl:mr-20 2xl:mr-16 2xl:mt-16 ">{name1}</button>
           
-          <button onClick={() => setPop_up (true)} className="cursor-pointer ml-32 med:max-sm:ml-[9.5rem]  sm:ml-42 mt-2 lg:mr-5 2xl:mr-0 lg:mt-10 xl:mt-12">{name2}</button>
+          <button onClick={() => setPop_up (true)} className="cursor-pointer ml-32 med:max-sm:ml-[9.5rem] lg:ml-48 sm:ml-42 mt-2 lg:mr-5 2xl:mr-0 lg:mt-10 xl:mt-12">{name2}</button>
            
             
           <button onClick={() => setPop_up (true)} className="cursor-pointer mt-4 xl:-mt-2 sm:mr-36 mr-28  lg:mt-0  xl:mb-0 lg:mr-56 xl:mr-52 2xl:mr-48">{name3}</button>
