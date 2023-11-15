@@ -5,7 +5,7 @@ function Team() {
   return (
     <div className="relative w-full h-full " >
     <div className="bg-gradient-to-b from-area to-[#1127b3] absolute inset-0 bg-cover bg-center -z-20">  </div>
-    z<div className="xl:bg-[url(bg/bgBallsteam.png)] absolute inset-0 bg-[length:300px_2120px] 2xl:left-[71.25rem] note:left-[68rem] xl:left-[64rem] xl:-top-[3rem] xl:-bottom-36 3xl:bg-right bg-no-repeat "></div>
+    z<div className="xl:bg-[url(bg/bgBallsteam.png)] absolute inset-0 bg-[length:300px_2120px] xl:bg-right   xl:-top-[5rem] xl:-bottom-36 3xl:bg-right bg-no-repeat "></div>
     <div className="flex-col font-michroma pb-36 " id="time"> 
         <div className=" mb-8"> 
             <h1 className="text-gray-50 text-[80px] leading-[7.1rem] xl:px-3 2xl:px-[5rem]">Time</h1>
