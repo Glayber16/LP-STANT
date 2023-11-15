@@ -8,6 +8,7 @@ export default withMT({
       screens: {
         '3xl': '1600px', 
         'med': '360px',
+        'note': '1360px',
       },
       colors: {
         'violeta': '#4F29E4',
