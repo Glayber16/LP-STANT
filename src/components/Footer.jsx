@@ -13,13 +13,13 @@ function Footer() {
       </button>
       <div>
         <div className="flex w-full gap-4 justify-center">
-          <a href="">
+          <a href="#">
             <AiFillLinkedin className="text-gray-100" />
           </a>
-          <a href="">
+          <a href="#">
             <AiFillFacebook className="text-gray-100" />
           </a>
-          <a href="">
+          <a href="#">
             <AiFillInstagram className="text-gray-100" />
           </a>
         </div>

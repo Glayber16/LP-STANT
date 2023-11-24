@@ -4,7 +4,7 @@ function TeamMembers({name, image, role, description1, description2, linkedin, d
   return (
     <div className="lg:flex px-10 lg:px-5 py-5">
             <div className=""> 
-                <img src={image} alt= {dsc} className="w-60 h-[17rem] mr-8 clip-circle "/>
+                <img src={image} alt = {dsc} className="w-60 h-[17rem] mr-8 clip-circle "/>
             </div>
             <div className="flex-row"> 
             
