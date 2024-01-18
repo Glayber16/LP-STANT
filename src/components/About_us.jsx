@@ -8,7 +8,7 @@ function About_us() {
   return (
     <div className='relative w-full h-full font-michroma text-gray-50'> 
     <div className='  bg-[url(bg/bgAbout2.jpg)] bg-cover inset-0 bg-bottom absolute -z-20'> </div>
-    <div className=' lg:bg-[url(bg/bgAbout.png)] 2xl:bg-[length:500px_1000px] lg:bg-[length:470px_1000px] bg-no-repeat 2xl:-top-[26rem] lg:-top-96 lg:mr-16 2xl:mr-20 3xl:mr-0  bg-right 3xl:bg-[length:500px_1100px] 3xl:bg-right 3xl:-top-80 3xl:right-36 inset-0 -z-10 absolute '> </div>
+    <div className=' lg:bg-[url(bg/bgAbout.png)] 2xl:bg-[length:500px_1000px] lg:bg-[length:470px_1000px] bg-no-repeat 2xl:-top-[117rem] lg:-top-[114rem] lg:mr-16 2xl:mr-20 3xl:mr-0  bg-right 3xl:bg-[length:500px_1100px] 3xl:bg-right 3xl:-top-[113rem] 3xl:right-36 inset-0 -z-10 absolute '> </div>
 
     
         <div className='flex flex-col sm:px-28 px-5 pt-10'> 
@@ -18,7 +18,7 @@ function About_us() {
             <div className='flex lg:flex-row flex-col justify-between'>
                     
              <div  className='flex sm:w-[23.8125rem] pb-20 lg:pb-40 text-[22px] pt-48 font-normal xl:text-justify tracking-wider  '>
-                <p className='leading-[2.7rem]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p className='leading-[2.7rem]'>A Santo Antônio é fruto da união de profissionais com grande experiência empreendedora, aliada a vivência executiva em empresas do setor de energia e tecnologia da informação e que uniram forças com um escritório de advocacia com grande experiência no setor de inovação e M&A do ecossistema Catarinense. Temos uma visão não de consultoria, mas sim de construtores de projetos, um conceito de “Venture Builder”, onde atuamos em todo o processo de estruturação e construção da caminhada dos empreendimentos. Apoiamos os empreendedores na busca de seus objetivos efetivamente. Em parceria com outros players deste segmento, temos condições de trazer os melhores recursos para os projetos, de forma otimizada e eficiente. A captação de recursos financeiros, buscando investidores e/ou através de estruturação de fundos específico, que com assessoria em processos de M&A complementam nossos objetivos e competências. </p>
             </div>
           
             <div className='flex flex-row text-4xl md:text-5xl lg:text-7xl sm:py-40 py-36 lg:py-0 bg-[url(bg/bgAbout.png)] lg:bg-none bg-contain bg-no-repeat'>

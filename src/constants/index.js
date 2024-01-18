@@ -55,20 +55,23 @@ export const TEAM_MEMBERS = [
 export const POP_UPS = [
     {
         name: "Missão",
-        text : "A nossa missão é identificar, incubar e acelerar startups promissoras, fornecendo recursos, conhecimento e expertise necessários para transformar ideias em negócios de sucesso. Nós capacitamos empreendedores a realizar seu potencial e contribuir para um mundo melhor.",
+        text : "Nossa missão é apoiar empreendedores e investidores para o desenvolvimento de projetos inovadores e de impacto,  estabelecendo negócios lucrativos, escaláveis e sustentáveis, oferecendo conhecimento, recursos, serviços de consultoria e acesso a capital de forma estruturada.",
     },
 
     {
         name: "Visão",
-        text : "A nossa visão é criar um ecossistema empreendedor dinâmico e sustentável, impulsionado pela inovação e pela criação de empresas disruptivas que resolvam os desafios mais prementes da sociedade.",
+        text : "Estabelecer um ambiente de negócios confiável, mitigando riscos e fornecendo toda a expertise necessária, para obter recursos essenciais e garantir o sucesso dos empreendimentos de nossos clientes.",
     },
 
     {
         name: "Valores",
-        text : "1. Colaboração Empreendedora: Trabalhamos em estreita parceria com fundadores e equipes, compartilhando conhecimento e recursos para alcançar o sucesso coletivo.",
-        text2 : "2. Mentoria e Desenvolvimento: Investimos no desenvolvimento de empreendedores e equipes, capacitando-os com as habilidades necessárias para ter sucesso a longo prazo. ",
-        text3 :  "3. Foco no Cliente: Colocamos as necessidades e desejos de nossos clientes e parceiros no centro de nossas atividades.",
-        text4 : "4. Persistência e Resiliência: Entendemos que empreender é um caminho repleto de desafios, e estamos comprometidos em superar obstáculos com determinação.",
+        text : "* Transparência.",
+        text2 : "* Criatividade.",
+        text3 :  "* Sustentabilidade.",
+        text4 : "* Inovação.",
+        text5 : "* Ética.",
+        text6 : "* Responsabilidade social.",
+        text7 : "* Resiliência."
 
     }
 ]
@@ -77,22 +80,22 @@ export const SLIDER = [
     {
         image:"./sliderpics/Slider1.png",
         alt: "#",
-        title:"TechNova",
-        description:"Estamos na vanguarda da inovação, explorando tecnologias emergentes, como inteligência artificial, aprendizado de máquina, blockchain, realidade virtual, entre outras, para criar soluções que revolucionam a maneira como as coisas são feitas.",
+        title:"Registro Web:",
+        description:"A Sto Antônio atuou em todo o processo de estruturação dessa startup, focada em solução para o setor de cartórios e originada como spinoff de empresa Brasytem. Construimos todo o plano de negócios da empresa, estruturamos uma captação de investimento na ordem de R$ 1 milhão, através de estruturação de um veículo de investimento próprio da Santo Antônio e abrindo espaço para investidores anjos. Atuamos no acompanhamento do negócio e no Conselho Consultivo da empresa.",
     },
 
     {
         image:"./sliderpics/Slider2.png",
         alt: "#",
-        title:"InnovateHub",
-        description:"Nosso ambiente de trabalho é caracterizado pela agilidade. Somos capazes de adaptar rapidamente nossos produtos e estratégias à medida que o mercado evolui.",
+        title:"CredDent:",
+        description:" A Sto Antônio atuou neste projeto inovador para o segmento de saúde, especificamente o odontológico, originado a partir de dentistas que conheciam dores de segmento, em especial no processo de financiamento das atividades odontológicas. A Startup, uma Fintech, contou com investimentos diretos dos empreendedores e nossa missão no projeto foi de construir e estruturar o plano de negócios, acompanhar a execução das atividades pelos empreendedores e dando suporte na interface direta com stakeholders do projeto, desde parceiros tecnológicos a agentes financeiros para viabilizar oferta de crédito a plataforma.",
     },
 
     {
         image:"#",
         alt: "#",
-        title:"CloudCraft",
-        description:"Valorizamos o espírito empreendedor e incentivamos a criatividade e o pensamento fora da caixa entre nossa equipe. Acreditamos que grandes ideias podem vir de qualquer lugar.",
+        title:"CashWay:",
+        description:"A Sto Antônio atuou no processo de captação de um round de investimento para a empresa, que atua no segmento financeiro com uma plataforma digital White label para bancos e cooperativas de crédito. Lideramos a captação que foi viabilizada por co-investimento entre fundo de investimento e uma empresa líder no segmento e sinérgica ao negócio da empresa,   também participando no round com recursos próprios.",
     }
 ]
 
@@ -100,17 +103,17 @@ export const CARD = [
     {
         role: "Energia",
         image: "./thunder.svg",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+        description: "Com grande impacto na sociedade, o setor de energia vem enfrentando novos desafios, buscando foco em eficiência energética, sustentabilidade e novas matrizes limpas. Na Santo Antônio, trazemos experiência e todo expertise para empreender e apoiar projetos inovadores neste segmento, desde a concepção e estruturação de novos projetos, prospecção de investimento e fusões e aquisições para empresa e Fundos de Investimentos."
     },
     {
         role: "Inovação",
         image: "./rocket.svg",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+        description: "Inovar é criar algo novo, é introduzir novidades, renovar, recriar. A inovação é sempre tida como sinônimo de mudanças e/ou melhorias de algo já existente. É o motor de crescimento econômico e sustentabilidade. Ao inovar, as empresas não ganham apenas em competitividade, mas também encontram novas formas de reduzir custos, construir um forte valor de marca. Neste espírito, a Santo Antônio busca contribuir com empreendedores e empresas que buscam inovação de impacto em seus negócios, apoiando e gerindo processos, estruturando novas iniciativas (venture builder) e buscando recursos financeiros."
     },
     {
         role: "Tecnologia",
         image: "./gear.svg",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, "
+        description: "O surgimento de novas tecnologias é uma tendência que vem ganhando destaque nos últimos anos. A Transformação Digital está presente e é estratégica em todos os segmentos de atividade econômica. A Santo Antônio tem grande experiência nesse segmento, podendo contribuir na construção de projetos estruturados e apoiando empresas e empreendedores, desde avaliação de impactos tecnológicos em seus processos, estruturação de novos negócios envolvendo tecnologias aplicadas a Transformação Digital e captação de recursos financeiros visando sustentabilidade e crescimento dessas iniciativas e empreendimentos."
     }
 ]
 

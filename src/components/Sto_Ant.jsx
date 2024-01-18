@@ -15,7 +15,7 @@ function Sto_Ant() {
     <div className="lg:px-28 lg:text-8xl text-6xl flex-col py-60">
         <div className="lg:pb-36"> 
             {POP_UPS.map(e => (
-                <Pop_ups name = {e.name} text = {e.text} text2 = {e.text2} text3={e.text3} text4={e.text4}   />
+                <Pop_ups name = {e.name} text = {e.text} text2 = {e.text2} text3={e.text3} text4={e.text4}  text5 = {e.text5} text6 = {e.text6} text7={e.text7} />
             ))}
         </div>
     </div>
