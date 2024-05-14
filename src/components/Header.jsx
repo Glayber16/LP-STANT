@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 function Header() {
   return (
-    <div className='bg-[url(bg/bgHeader.jpg)] 3xl:bg-[length:2000px_830px] bg-cover bg-top font-michroma py-6 pb-20'>
+    <div className='bg-[url(/bg/bgHeader.jpg)] 3xl:bg-[length:2000px_830px] bg-cover bg-top font-michroma py-6 pb-20'>
         <div className='flex flex-row justify-around py-4 align-middle items-center xl:px-5'>
         <img src="simbol.svg" alt="" className='w-16 h-10 sm:w-[10.7rem] sm:h-[6.7rem]'/>
         <div className='flex flex-row justify-around '> 

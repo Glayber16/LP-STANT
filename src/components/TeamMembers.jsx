@@ -25,7 +25,7 @@ function TeamMembers({name, image, role, description1, description2, linkedin, d
                     
                 
                     
-                    <div className="lg:w-[21rem]"> 
+                    <div className="lg:w-[22rem]"> 
                         <p className="text-gray-100 leading-7 font-light text-base tracking-wider"> {description2} </p>
                     </div>
                  </div> 

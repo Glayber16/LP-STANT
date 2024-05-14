@@ -17,7 +17,7 @@ export const TEAM_MEMBERS = [
         role : "projetos",
         linkedin : "#",
         description1 : "Graduado em Engenharia Elétrica pela Universidade Federal de Santa Catarina, com Mestrado na área de Engenharia Biomédica.",
-        description2 : "Trabalhou na Fundação CERTI (Instituto de P&D ligado a UFSC) na divisão de Automação Integrada. Fundador da empresa Suntech Telecom.",
+        description2 : " Empreendedor do setor de tecnologia, fundou algumas empresas com destaque para Suntech Telecom Solutions, adquirida pela Verint Inc, onde atuou como CEO. Possui larga experiência em projetos de P&D atuando como Diretor Executivo das áreas de Convergência Digital e Energia Sustentável da Fundação Certi.",
     },
 
     {
@@ -80,21 +80,21 @@ export const SLIDER = [
     {
         image:"./sliderpics/Slider1.png",
         alt: "#",
-        title:"Registro Web:",
+        title:"Extrajudicial/Imobiliário",
         description:"A Sto Antônio atuou em todo o processo de estruturação dessa startup, focada em solução para o setor de cartórios e originada como spinoff de empresa Brasytem. Construimos todo o plano de negócios da empresa, estruturamos uma captação de investimento na ordem de R$ 1 milhão, através de estruturação de um veículo de investimento próprio da Santo Antônio e abrindo espaço para investidores anjos. Atuamos no acompanhamento do negócio e no Conselho Consultivo da empresa.",
     },
 
     {
         image:"./sliderpics/Slider2.png",
         alt: "#",
-        title:"CredDent:",
+        title:"Saúde/Fintech",
         description:" A Sto Antônio atuou neste projeto inovador para o segmento de saúde, especificamente o odontológico, originado a partir de dentistas que conheciam dores de segmento, em especial no processo de financiamento das atividades odontológicas. A Startup, uma Fintech, contou com investimentos diretos dos empreendedores e nossa missão no projeto foi de construir e estruturar o plano de negócios, acompanhar a execução das atividades pelos empreendedores e dando suporte na interface direta com stakeholders do projeto, desde parceiros tecnológicos a agentes financeiros para viabilizar oferta de crédito a plataforma.",
     },
 
     {
         image:"#",
         alt: "#",
-        title:"CashWay:",
+        title:"Techfin",
         description:"A Sto Antônio atuou no processo de captação de um round de investimento para a empresa, que atua no segmento financeiro com uma plataforma digital White label para bancos e cooperativas de crédito. Lideramos a captação que foi viabilizada por co-investimento entre fundo de investimento e uma empresa líder no segmento e sinérgica ao negócio da empresa,   também participando no round com recursos próprios.",
     }
 ]
@@ -154,17 +154,17 @@ export const RECORDS = [
 export const POP_UPS2 = [
     {
         name1: "1",
-        text : '1'
+        text : 'Energia: Com grande impacto na sociedade, o setor de energia vem enfrentando novos desafios, buscando foco em eficiência energética, sustentabilidade e novas matrizes limpas. Na Santo Antônio, trazemos experiência e todo expertise para empreender e apoiar projetos inovadores neste segmento, desde a concepção e estruturação de novos projetos, prospecção de investimento e fusões e aquisições para empresa e Fundos de Investimentos.'
     },
 
     {
         name2: '2',
-        text : '2'
+        text : 'Inovação: Inovar é criar algo novo, é introduzir novidades, renovar, recriar. A inovação é sempre tida como sinônimo de mudanças e/ou melhorias de algo já existente. É o motor de crescimento econômico e sustentabilidade. Ao inovar, as empresas não ganham apenas em competitividade, mas também encontram novas formas de reduzir custos, construir um forte valor de marca. Neste espírito, a Santo Antônio busca contribuir com empreendedores e empresas que buscam inovação de impacto em seus negócios, apoiando e gerindo processos, estruturando novas iniciativas (venture builder) e buscando recursos financeiros.'
     },
 
     {
         name3: '3',
-        text : '3'
+        text : 'Tecnologia: O surgimento de novas tecnologias é uma tendência que vem ganhando destaque nos últimos anos. A Transformação Digital está presente e é estratégica em todos os segmentos de atividade econômica. A Santo Antônio tem grande experiência nesse segmento, podendo contribuir na construção de projetos estruturados e apoiando empresas e empreendedores, desde avaliação de impactos tecnológicos em seus processos, estruturação de novos negócios envolvendo tecnologias aplicadas a Transformação Digital e captação de recursos financeiros visando sustentabilidade e crescimento dessas iniciativas e empreendimentos.'
 
     }
 ]

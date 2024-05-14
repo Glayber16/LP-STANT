@@ -2,8 +2,8 @@ function Contacts() {
     return(
 
         <div className=" relative w-full h-full "> 
-        <div className="bg-[url(bg/bgContacts.jpg)] absolute inset-0 bg-cover bg-center -z-20" ></div>
-        <div className="bg-[url(bg/bgBall.png)] absolute inset-0 bg-[length:950px_780px] -top-[4rem] left-[4rem] opacity-50 bg-no-repeat  3xl:bg-center 3xl: -z-20 "> </div>
+        <div className="bg-[url(/bg/bgContacts.jpg)] absolute inset-0 bg-cover bg-center -z-20" ></div>
+        <div className="bg-[url(/bg/bgBall.png)] absolute inset-0 bg-[length:950px_780px] -top-[4rem] left-[4rem] opacity-50 bg-no-repeat  3xl:bg-center 3xl: -z-20 "> </div>
             
             <div className="sm:flex align-middle justify-around items-center xl:py-40  font-michroma py-20 px-5" id="contact"> 
             <div className="px-10 sm:px-0 py-5 sm:py-0 xl:w-[33.2rem]"> 

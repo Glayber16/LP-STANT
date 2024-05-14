@@ -6,7 +6,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[url(bg/bgFooter.jpg)] flex gap-6 sm:gap-0 flex-col sm:flex-row justify-around items-center py-20 bg-cover">
+    <footer className="bg-[url(/bg/bgFooter.jpg)] flex gap-6 sm:gap-0 flex-col sm:flex-row justify-around items-center py-20 bg-cover">
       <img src="logo.svg" alt="" />
       <button className="text-gray-100 border rounded-lg w-28 h-10 font-michroma">
         contato
@@ -26,6 +26,9 @@ function Footer() {
         <p className="text-gray-100 font-michroma">
           Sign-up for our newsletter
         </p>
+      </div>
+      <div>
+        <img src="selo.png" alt="" className="h-20 w-36" />
       </div>
     </footer>
   );

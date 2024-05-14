@@ -35,7 +35,7 @@ useEffect(() => {
      </motion.div>
      </div>
     <div className="flex justify-end pb-5" >
-      <div className="flex justify-center items-center px-8"> 
+      <div className="justify-center items-center px-8 hidden"> 
         <h1 className="text-2xl pr-5">12.873</h1>
         <BsEye className="w-16 h-16"/>
       </div>
