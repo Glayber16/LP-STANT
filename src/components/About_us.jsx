@@ -8,11 +8,11 @@ function About_us() {
   return (
     <div className='relative w-full h-full font-michroma text-gray-50'> 
     <div className='  bg-[url(/bg/bgAbout2.jpg)] bg-cover inset-0 bg-bottom absolute -z-20'> </div>
-    <div className=' lg:bg-[url(/bg/bgAbout.png)] 2xl:bg-[length:500px_1000px] lg:bg-[length:470px_1000px] bg-no-repeat 2xl:-top-[75rem] lg:-top-[76rem]  lg:ml-20 2xl:mr-20 3xl:mr-0  bg-right 3xl:bg-[length:500px_1100px] 3xl:bg-right 3xl:-top-[70rem] 3xl:right-36 inset-0 -z-10 absolute '> </div>
+    <div className=' lg:bg-[url(/bg/bgAbout.png)] 2xl:bg-[length:500px_1000px] lg:bg-[length:470px_1000px] bg-no-repeat 2xl:-top-[65rem] lg:-top-[76rem]  lg:ml-20 2xl:mr-20 3xl:mr-0  bg-right 3xl:bg-[length:500px_1100px] 3xl:bg-right 3xl:-top-[60rem] 3xl:right-36 inset-0 -z-10 absolute '> </div>
 
     
         <div className='flex flex-col sm:px-28 px-5 pt-10'> 
-            <div id='about' className=''>
+            <div id='about' className='w-[50vw]'>
                 <h1 className='2xl:text-[150px] text-6xl md:text-8xl'>Modelo</h1>
             </div>
             <div className='flex lg:flex-row flex-col justify-between'>

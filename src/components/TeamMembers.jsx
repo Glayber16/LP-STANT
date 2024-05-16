@@ -13,7 +13,7 @@ function TeamMembers({name, image, role, description1, description2, linkedin, d
                     <div className="flex items-center gap-3 mb-4">
                     <h2 className="text-gray-100">{role}</h2> 
                     
-                    <a href= {linkedin} >
+                    <a href= {linkedin} target="blank">
                         <AiFillLinkedin className="text-gray-100" />
                     </a> 
                 </div>

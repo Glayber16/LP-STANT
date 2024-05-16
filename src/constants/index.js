@@ -4,7 +4,7 @@ export const TEAM_MEMBERS = [
         dsc : "foto preto e branco de Rógerio Lima, fundador",
         name : "Rogério Lima",
         role : "founder",
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/rogerio-lima-36492517?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         description1 : "Engenheiro Mecânico, graduado pela Universidade Federal de Santa Catarina, e Administrador de Empresas graduado pela Universidade do Estado de Santa Catarina–UDESC/ESAG, com MBA em Gestão Empresarial na FGV.",
         description2 : "Possui carreira executiva em empresa multinacional assumindo diversas posições, tais como: CFO (Chief Finance Officer) na SCGAS, Gerente Geral e Diretor Regional SP pela Mitsui Gás.",
 
@@ -15,7 +15,7 @@ export const TEAM_MEMBERS = [
         dsc : "foto preto e branco de Mauricio Ibarra Dobes, projetos",
         name : "Mauricio Ibarra Dobes",
         role : "projetos",
-        linkedin : "#",
+        linkedin : "https://www.linkedin.com/in/mauricio-ibarra-dobes-5617271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         description1 : "Graduado em Engenharia Elétrica pela Universidade Federal de Santa Catarina, com Mestrado na área de Engenharia Biomédica.",
         description2 : " Empreendedor do setor de tecnologia, fundou algumas empresas com destaque para Suntech Telecom Solutions, adquirida pela Verint Inc, onde atuou como CEO. Possui larga experiência em projetos de P&D atuando como Diretor Executivo das áreas de Convergência Digital e Energia Sustentável da Fundação Certi.",
     },
@@ -25,7 +25,7 @@ export const TEAM_MEMBERS = [
         name : "Bruno Souto Alonso",
         dsc : "foto preto e branco de Bruno Souto Alonso, advogado",
         role : "advogado",
-        linkedin : "#",
+        linkedin : "https://www.linkedin.com/in/bruno-alonso-4b9a0131?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         description1 : "Bacharel em Direito pela Universidade do Vale do Itajaí - UNIVALI. Possui especialização em Direito Público pela Escola Superior da Magistratura Federal de Santa Catarina e em Direito Tributário.",
         description2 : "Consultor jurídico há 15 anos, assessorando empresas nas áreas de tecnologia da informação, construção civil além de indústrias em diversos segmentos.",
     },
@@ -35,7 +35,7 @@ export const TEAM_MEMBERS = [
         name : "Sandro Lopes Guimarães",
         dsc : "foto preto e branco de Sandro Lopes Guimarães, advogado",
         role : "advogado",
-        linkedin : "#",
+        linkedin : "https://www.linkedin.com/in/sandro-lopes-guimar%C3%A3es-76997483?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         description1 : "Advogado desde 1994 atuando na área empresarial. Formado em Direito pela Universidade Federal de Santa Catarina - UFSC.",
         description2 : "Possui especialização em Direito Empresarial pela Universidade do Sul de Santa Catarina - UNISUL e Fundação de Estudos Avançados em Administração e Gestão.",
     },
@@ -45,7 +45,7 @@ export const TEAM_MEMBERS = [
         name : "Vitor Hugo Cenci",
         dsc : "foto preto e branco de Vitor Hugo Cenci, advogado",
         role : "advogado",
-        linkedin : "#",
+        linkedin : "https://www.linkedin.com/in/vhcenci?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         description1 : "Graduado em Direito pela Universidade Federal de Santa Catarina – UFSC. Se especializou em Gestão da Tecnologia e Propriedade Intelectual pelo Instituto Nacional da Propriedade Industrial (INPI).",
         description2 : "Atual presidente da Comissão de Advogados da Ordem dos Advogados do Brasil (OAB)"
     },
@@ -92,7 +92,7 @@ export const SLIDER = [
     },
 
     {
-        image:"#",
+        image:"./sliderpics/Slider3.png",
         alt: "#",
         title:"Techfin",
         description:"A Sto Antônio atuou no processo de captação de um round de investimento para a empresa, que atua no segmento financeiro com uma plataforma digital White label para bancos e cooperativas de crédito. Lideramos a captação que foi viabilizada por co-investimento entre fundo de investimento e uma empresa líder no segmento e sinérgica ao negócio da empresa,   também participando no round com recursos próprios.",
